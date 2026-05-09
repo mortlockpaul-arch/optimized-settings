@@ -1,0 +1,6 @@
+[GPU]
+readback_resolve = "full"                         	# Controls CPU readback of render-to-texture resolve results.
+render_target_path_d3d12 = "rov"                  	# Render target emulation path to use on Direct3D 12.
+
+[Memory]
+protect_zero = false                              	# Protect the zero page from reads and writes.
